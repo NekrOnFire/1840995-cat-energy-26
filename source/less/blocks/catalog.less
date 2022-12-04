@@ -56,6 +56,7 @@
     align-items: center;
     flex-grow: 1;
     border: 2px solid #f2f2f2;
+    margin: 0;
   }
 }
 
@@ -69,6 +70,7 @@
   padding-bottom: 8px;
 
   @media (min-width: @tablet-width) {
+    padding-top: 161px;
     font-size: 20px;
     line-height: 22px;
     max-width: 134px;
@@ -90,5 +92,18 @@
     font-size: 16px;
     line-height: 18px;
     max-width: 167px;
+  }
+}
+
+.catalog__wrapper {
+  max-width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: @tablet-width) {
+    max-width: 708px;
+  }
+
+  @media (min-width: @desktop-width) {
+    max-width: 1220px;
   }
 }

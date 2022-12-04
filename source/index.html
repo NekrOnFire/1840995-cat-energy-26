@@ -10,26 +10,28 @@
 
 <body class="page__body">
   <header class="main-header page__main-header">
-    <a class="main-header__logo-mobile">
-      <img src="/source/img/logo-mobile.svg" width="34" height="38" alt="Магазин «Cat Energy».">
-    </a>
-    <!-- <a class="main-header__logo-text">
+    <div class="main-header__body">
+      <a class="main-header__logo-mobile">
+        <img src="/source/img/logo-mobile.svg" width="34" height="38" alt="Магазин «Cat Energy».">
+      </a>
+      <!-- <a class="main-header__logo-text">
       <img src="/source/img/logo-text.svg" width="101" height="18" alt="Магазин «Cat Energy».">
-    </a> -->
-    <nav class="main-nav">
+      </a> -->
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню.</span>
       </button>
+    </div>
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="main-nav__item main-nav__item--active">
-            <a>Главная</a>
+            <a class="main-nav__link">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
-            <a href="module.html">Подбор программы</a>
+            <a class="main-nav__link" href="module.html">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -106,7 +108,7 @@
       </div>
       <div class="sum page__sum">
         <p class="sum__text">Затраты на питание:</p>
-        <p class="sum__number">15 000 руб.</p>
+        <p class="sum__number">&nbsp;15 000 руб.</p>
       </div>
     </div>
     <div class="cat-slider page__cat-slider">
@@ -129,7 +131,7 @@
       <div class="address__wrapper">
         <span class="visually-hidden">Адрес</span>
         <p class="address__welcome">приглашаем к&nbsp;сотрудничеству дилеров!</p>
-        <p class="address__street">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <p class="address__street">ул. Большая Конюшенная, д. 19/8 <span class="adress__city">Санкт-Петербург</span></p>
       </div>
       <!-- <iframe src="https://yandex.ru/map-widget/v1/-/CCURjFF8lB" width="560" height="400"></iframe> -->
     </section>
